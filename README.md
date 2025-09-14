@@ -34,3 +34,15 @@ Student — содержит name и обязательное поле List<Book
 toString() печатает имя и кол-во книг.
 
 В Main.main создаётся список студентов и сразу запускается единая стрим-цепочка
+
+
+#Module2 
+
+запуск проекта осущесвляется командами:
+
+javac -d out src/module2/FileOperationException.java src/module2/FileApp.java
+java -cp out module2.FileApp
+
+в FileOperationException - Пользовательское исключение. Наследуется от Exception и используется для обёртки ошибок при работе с файлами.
+
+FileApp - Главный класс приложения. Содержит методы для записи и чтения файлов (writeToFile, readFromFile) и демонстрацию работы в main. 

@@ -37,7 +37,7 @@ public class FileApp {
             System.out.println("Содержимое файла:");
             lines.forEach(System.out::println);
 
-
+            //Делаю специально чтобы получить ошибку
             System.out.println("\nПробуем открыть несуществующий файл...");
             readFromFile("no_such_file.txt");
 
